@@ -12,13 +12,13 @@ var f = "My name is $e Nice to meet you"
 // - 존재 하지 않는다
 
 //var abc : Int = null -> error
-var abc1 : Int? = null
-var abc2 : Double? = null
+var abc1: Int? = null
+var abc2: Double? = null
 
 var g = a + 3
 
 
-fun main(array: Array<String>){
+fun main(array: Array<String>) {
     println(a)
     println(b)
     println(c)
