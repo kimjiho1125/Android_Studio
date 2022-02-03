@@ -1,4 +1,4 @@
-package com.example.myapplication.Kotlin.`01`
+package com.example.myapplication.Kotlin.Kotlin
 
 var num = 10
 var hello = "hello"
