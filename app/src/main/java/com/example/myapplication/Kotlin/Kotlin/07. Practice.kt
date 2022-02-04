@@ -49,9 +49,9 @@ fun main(array: Array<String>) {
     println(h)
 
     // 논리 연산자
+    var i = !h
     val j = h && i
     val k = h || i
-    var i = !h
     println()
     println(j)
     println(k)
