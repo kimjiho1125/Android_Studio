@@ -25,11 +25,14 @@ fun main(array: Array<String>) {
     runableCar.drive()
 
     // 인스턴스의 멤버변수에 접근하는 방법
-    val runableCar2 : RunableCar2 = RunableCar2("nice engine", "long body")
+    val runableCar2: RunableCar2 = RunableCar2("nice engine", "long body")
     println(runableCar2.engine)
     println(runableCar2.body)
 
-
+    println()
+    val testClass : TestClass = TestClass()
+    testClass.test(1)
+    testClass.test(1,2)
 
 }
 
@@ -121,4 +124,19 @@ class RunableCar2 {
     fun navi(destination: String) {
         println("$destination 으로 목적지가 설정되었습니다")
     }
+}
+
+// 오버로딩
+// - 이름이 같지만 받는 파라미터가 다른 함수
+class TestClass() {
+
+    // 이름이 같으나 파라미터가 달라서 구별이 가능
+    fun test(a: Int) {
+        println("up")
+    }
+
+    fun test(a: Int, b: Int) {
+        println("down")
+    }
+
 }
