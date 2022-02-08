@@ -15,7 +15,7 @@ fun main(array: Array<String>) {
     println(calculator2.divide(10,2,3))
     println()
 
-    val calculator3 = Calculator3()
+    val calculator3 = Calculator3(5)
     println(calculator3.plus(5).minus(5))
 
 }
