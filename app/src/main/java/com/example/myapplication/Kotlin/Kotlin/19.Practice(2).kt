@@ -13,6 +13,11 @@ fun main(array: Array<String>) {
     println(calculator2.minus(10,1,2,3,))
     println(calculator2.multiply(1,2,3))
     println(calculator2.divide(10,2,3))
+    println()
+
+    val calculator3 = Calculator3()
+    println(calculator3.plus(5).minus(5))
+
 }
 
 // 가장 쉬운 방법
@@ -72,5 +77,27 @@ class Calculator2() {
             }
         }
         return result
+    }
+}
+
+class Calculator3(val initialvalue: Int) {
+    fun plus(number:Int) : Calculator3 {
+        val result = this.initialvalue + number
+        return Calculator3(result)
+    }
+
+    fun minus(number:Int) : Calculator3 {
+        val result = this.initialvalue - number
+        return Calculator3(result)
+    }
+
+    fun multiply(number:Int) : Calculator3 {
+        val result = this.initialvalue * number
+        return Calculator3(result)
+    }
+
+    fun divide(number:Int) :Calculator3 {
+        val result = this.initialvalue / number
+        return Calculator3(result)
     }
 }
