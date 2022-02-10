@@ -14,7 +14,7 @@ fun main(array: Array<String>) {
 //    monster.power = 100
 }
 
-class Night(private var hp: Int, private var power: Int) {
+open class Night(private var hp: Int, private var power: Int) {
 
     fun attack(monster: Monster) {
         monster.defense(power)
@@ -35,7 +35,7 @@ class Night(private var hp: Int, private var power: Int) {
     }
 }
 
-class Monster(private var hp: Int, private var power: Int) {
+open class Monster(private var hp: Int, private var power: Int) {
 
     fun attack(night: Night) {
         night.defense(power)
