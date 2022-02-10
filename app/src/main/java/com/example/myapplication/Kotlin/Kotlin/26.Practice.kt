@@ -27,6 +27,11 @@ package com.example.myapplication.Kotlin.Kotlin
 //    }
 //}
 
+// 상속이 만들어낸 특징
+// - 자식 클래스는 부모 클래스의 타입이다
+// - 부모 클래스는 자식 클래스의 타입이 아니다
+
+
 fun main(args: Array<String>) {
     val monster = SuperMonster(100, 10)
     val night = SuperNight(130,8)
