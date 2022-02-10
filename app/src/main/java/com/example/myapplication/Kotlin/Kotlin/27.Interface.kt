@@ -9,6 +9,16 @@ package com.example.myapplication.Kotlin.Kotlin
 // - 자식 클래스는 부모 클래스의 타입이다
 // - 부모 클래스는 자식 클래스의 타입이 아니다
 
+// 상속과 다른 점
+// - 상속은 조상을 찾아가는 느낌
+// - 인터페이스는 종의 특징
+
+fun main(args: Array<String>) {
+    val student__: Student_ = Student_()
+    student__.eat()
+    student__.sleep()
+}
+
 interface Person_{
     fun eat()
     fun sleep()
@@ -24,7 +34,15 @@ class Student_ : Person_ {
     }
 }
 
-class SoccerPlayer
+class SoccerPlayer : Person_{
+    override fun eat() {
+
+    }
+
+    override fun sleep() {
+
+    }
+}
 
 open class Person() {
     open fun eat() {
