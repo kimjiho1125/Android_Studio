@@ -3,142 +3,142 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<!--    <TextView-->
-<!--        android:id="@+id/view1"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#F44336"-->
-<!--        android:layout_centerInParent="true"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/view1"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#F44336"-->
+    <!--        android:layout_centerInParent="true"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/view2"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#E91E63"-->
-<!--        android:layout_above="@+id/view1"-->
-<!--        android:layout_centerInParent="true"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/view2"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#E91E63"-->
+    <!--        android:layout_above="@+id/view1"-->
+    <!--        android:layout_centerInParent="true"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/view3"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#9C27B0"-->
-<!--        android:layout_above="@+id/view1"-->
-<!--        android:layout_toStartOf="@id/view1"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/view3"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#9C27B0"-->
+    <!--        android:layout_above="@+id/view1"-->
+    <!--        android:layout_toStartOf="@id/view1"/>-->
 
-<!--    <TextView-->
-<!--        android:id="@+id/view4"-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#673AB7"-->
-<!--        android:layout_above="@+id/view1"-->
-<!--        android:layout_toEndOf="@id/view1"/>-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/view4"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#673AB7"-->
+    <!--        android:layout_above="@+id/view1"-->
+    <!--        android:layout_toEndOf="@id/view1"/>-->
 
-<!--    <TextView-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#3F51B5"-->
-<!--        android:layout_toLeftOf="@id/view1"-->
-<!--        android:layout_centerInParent="true"/>-->
+    <!--    <TextView-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#3F51B5"-->
+    <!--        android:layout_toLeftOf="@id/view1"-->
+    <!--        android:layout_centerInParent="true"/>-->
 
-<!--    <TextView-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#2196F3"-->
-<!--        android:layout_toRightOf="@id/view1"-->
-<!--        android:layout_centerInParent="true"/>-->
+    <!--    <TextView-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#2196F3"-->
+    <!--        android:layout_toRightOf="@id/view1"-->
+    <!--        android:layout_centerInParent="true"/>-->
 
-<!--    <TextView-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#03A9F4"-->
-<!--        android:layout_below="@id/view1"-->
-<!--        android:layout_centerInParent="true"/>-->
+    <!--    <TextView-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#03A9F4"-->
+    <!--        android:layout_below="@id/view1"-->
+    <!--        android:layout_centerInParent="true"/>-->
 
-<!--    <TextView-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#00BCD4"-->
-<!--        android:layout_below="@id/view1"-->
-<!--        android:layout_toLeftOf="@id/view1"/>-->
+    <!--    <TextView-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#00BCD4"-->
+    <!--        android:layout_below="@id/view1"-->
+    <!--        android:layout_toLeftOf="@id/view1"/>-->
 
-<!--    <TextView-->
-<!--        android:layout_width="50dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="#FF5722"-->
-<!--        android:layout_below="@id/view1"-->
-<!--        android:layout_toRightOf="@id/view1"/>-->
+    <!--    <TextView-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#FF5722"-->
+    <!--        android:layout_below="@id/view1"-->
+    <!--        android:layout_toRightOf="@id/view1"/>-->
 
     <TextView
         android:id="@+id/one"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toLeftOf="@id/two"
         android:layout_above="@id/four"
-        android:background="#FF9800"/>
+        android:layout_toLeftOf="@id/two"
+        android:background="#FF9800" />
 
     <TextView
         android:id="@+id/two"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerInParent="true"
         android:layout_above="@+id/five"
-        android:background="#E91E63"/>
+        android:layout_centerInParent="true"
+        android:background="#E91E63" />
 
     <TextView
         android:id="@+id/three"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toRightOf="@id/two"
         android:layout_above="@id/six"
-        android:background="#CDDC39"/>
+        android:layout_toRightOf="@id/two"
+        android:background="#CDDC39" />
 
     <TextView
         android:id="@+id/four"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toLeftOf="@+id/five"
         android:layout_above="@+id/seven"
-        android:background="#8BC34A"/>
+        android:layout_toLeftOf="@+id/five"
+        android:background="#8BC34A" />
 
     <TextView
         android:id="@+id/five"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
-        android:background="#F44336"/>
+        android:background="#F44336" />
 
     <TextView
         android:id="@+id/six"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toRightOf="@id/five"
         android:layout_above="@+id/nine"
-        android:background="#673AB7"/>
+        android:layout_toRightOf="@id/five"
+        android:background="#673AB7" />
 
     <TextView
         android:id="@+id/seven"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toLeftOf="@+id/eight"
         android:layout_below="@id/five"
-        android:background="#9C27B0"/>
+        android:layout_toLeftOf="@+id/eight"
+        android:background="#9C27B0" />
 
     <TextView
         android:id="@+id/eight"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/five"
-        android:background="#009688"/>
+        android:layout_centerInParent="true"
+        android:background="#009688" />
 
     <TextView
         android:id="@+id/nine"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toRightOf="@+id/five"
         android:layout_below="@id/five"
-        android:background="#4CAF50"/>
+        android:layout_toRightOf="@+id/five"
+        android:background="#4CAF50" />
 
 
 </RelativeLayout>
