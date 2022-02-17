@@ -55,10 +55,13 @@ class Calculator : AppCompatActivity() {
         }
         ca.setOnClickListener {
             new = "0"
-            result.setText(new)
+            old = "0"
+            result.setText("0")
         }
         plus.setOnClickListener {
-
+            old = (old.toInt() +  new.toInt()).toString()
+            new = "0"
+            result.setText(old)
         }
 
     }
