@@ -8,4 +8,10 @@
     android:background="#3F51B5"
     tools:context=".Intent2">
 
+    <Button
+        android:id="@+id/result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="결과"/>
+
 </LinearLayout>
