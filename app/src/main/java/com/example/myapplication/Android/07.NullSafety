@@ -30,3 +30,8 @@ if (button != null) {
 사용방법
 button?.setOnClickListener -> button이 Null이 아니라면 리스너실행
 button!!.setOnClickListener -> button은 확실히 Null이 아님
+
+Null이 될 수 있는 타입
+Int, Double, Float, Class -> Null이 될 수 없는 타입
+Int?, Double?, Float?, Class? -> Null이 될 수 있는 타입
+
