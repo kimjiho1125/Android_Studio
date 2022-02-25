@@ -10,6 +10,7 @@
         <entry key="..\:/MyApplication4/app/src/main/res/drawable/radius.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/drawable/soild.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/drawable/stroke.xml" value="0.1" />
+        <entry key="..\:/MyApplication4/app/src/main/res/layout/activity_add_view.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/activity_calculator.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/activity_context.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/activity_fragment.xml" value="0.1" />
@@ -23,6 +24,7 @@
         <entry key="..\:/MyApplication4/app/src/main/res/layout/activity_thread.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/final_practice_17.xml" value="0.25" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/fragment_one.xml" value="0.1" />
+        <entry key="..\:/MyApplication4/app/src/main/res/layout/item_view.xml" value="0.1" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/resource.xml" value="0.1" />
       </map>
     </option>
