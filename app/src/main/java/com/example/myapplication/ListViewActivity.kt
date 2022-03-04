@@ -21,6 +21,7 @@ class ListViewActivity : AppCompatActivity() {
 
         val adapter = ListViewAdapter(carList, LayoutInflater.from(this@ListViewActivity))
         listView.adapter = adapter
+        listView.setOnItemClickListener { parent, view, position, id ->  }
     }
 }
 
