@@ -54,13 +54,31 @@ class ListViewAdapter(
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        val view = layoutInflater.inflate(R.layout.item_view,null)
-        val carNameTextview = view.findViewById<TextView>(R.id.car_name)
-        val carEngineTextView = view.findViewById<TextView>(R.id.car_engine)
 
-        carNameTextview.setText(carForList.get(position).name)
-        carEngineTextView.setText(carForList.get(position).engine)
+        val view : View
+        val holder : ViewHolder
+
+        if(convertView == null) {
+            view = layoutInflater.inflate(R.layout.item_view,null)
+            holder = ViewHolder()
+
+            holder.carName = view.findViewById(R.id.car_name)
+            holder.carEngine = view.findViewById(R.id.car_engine)
+
+            view.tag = holder
+        } else {
+            holder = convertView.tag as ViewHolder
+            view = convertView
+        }
+        holder.carName?.setText(carForList.get(position).name)
+        holder.carEngine?.setText(carForList.get(position).engine)
 
         return view
     }
+
+}
+
+class ViewHolder {
+    var carName: TextView? = null
+    var carEngine : TextView? = null
 }
