@@ -1,6 +1,6 @@
 package com.example.myapplication.Kotlin.Kotlin
 
-// 14. Collection
+// 14.RecyclerView. Collection
 // -> list, set, map
 
 fun main(array: Array<String>) {
