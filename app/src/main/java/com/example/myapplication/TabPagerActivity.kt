@@ -17,6 +17,7 @@ class TabPagerActivity : AppCompatActivity() {
         tab_layout.addTab(tab_layout.newTab().setText("TWO"))
         tab_layout.addTab(tab_layout.newTab().setText("THREE"))
 
+        //d
     }
 }
 
