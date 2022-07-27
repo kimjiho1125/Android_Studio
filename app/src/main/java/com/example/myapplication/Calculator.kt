@@ -2,13 +2,27 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_calculator.*
+import android.widget.TextView
 
 class Calculator : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculator)
+
+        var zero = findViewById<TextView>(R.id.zero)
+        var one = findViewById<TextView>(R.id.one)
+        var two = findViewById<TextView>(R.id.two)
+        var three = findViewById<TextView>(R.id.three)
+        var four = findViewById<TextView>(R.id.four)
+        var five = findViewById<TextView>(R.id.five)
+        var six = findViewById<TextView>(R.id.six)
+        var seven = findViewById<TextView>(R.id.seven)
+        var eight = findViewById<TextView>(R.id.eight)
+        var nine = findViewById<TextView>(R.id.nine)
+        var ca = findViewById<TextView>(R.id.ca)
+        var plus = findViewById<TextView>(R.id.plus)
+        var result = findViewById<TextView>(R.id.result)
 
         var new = "0"
         var old = "0"

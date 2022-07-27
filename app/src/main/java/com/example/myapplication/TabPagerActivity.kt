@@ -6,18 +6,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import kotlinx.android.synthetic.main.activity_tab_pager.*
 
 class TabPagerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab_pager)
 
-        tab_layout.addTab(tab_layout.newTab().setText("ONE"))
-        tab_layout.addTab(tab_layout.newTab().setText("TWO"))
-        tab_layout.addTab(tab_layout.newTab().setText("THREE"))
 
-        //abc
     }
 }
 

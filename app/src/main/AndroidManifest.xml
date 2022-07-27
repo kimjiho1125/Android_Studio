@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".TabPagerActivity">
+            android:name=".SharedPreferenceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PhoneBookWithRecyclerViewActivity">
+        <activity android:name=".TabPagerActivity">
+
         </activity>
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".PhoneBookWithRecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ListViewActivity" />
         <activity
             android:name=".PhoneBookDetailActivity"
