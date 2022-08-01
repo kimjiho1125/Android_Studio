@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_listener.*
+import com.example.myapplication.Kotlin.Kotlin.hello
 
 class Listener : AppCompatActivity() {
 
@@ -14,6 +15,9 @@ class Listener : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_listener)
+
+        val hello = findViewById<TextView>(R.id.hello)
+        val image = findViewById<ImageView>(R.id.image)
 
         // 뷰를 activity로 가져오는 방법(1)
         // - 직접 찾아서 가져온다

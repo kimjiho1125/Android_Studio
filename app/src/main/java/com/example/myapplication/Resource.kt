@@ -3,12 +3,14 @@ package com.example.myapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_resource.*
+import android.widget.Button
 
 class Resource : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resource)
+
+        val button3 = findViewById<Button>(R.id.button3)
 
         // 1
         val ment = resources.getString(R.string.hello)

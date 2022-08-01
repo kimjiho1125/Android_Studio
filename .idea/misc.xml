@@ -34,8 +34,19 @@
         <entry key="..\:/MyApplication4/app/src/main/res/layout/phonebook_item.xml" value="0.22" />
         <entry key="..\:/MyApplication4/app/src/main/res/layout/resource.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_calculator.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_intent.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_intent2.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_library.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_listener.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_open_internet.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_phone_book_detail.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_phone_book_with_recycler_view.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_realm.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_recycler_view.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_resource.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_shared_preference.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_thread.xml" value="0.1" />
       </map>
     </option>
   </component>

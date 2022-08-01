@@ -7,13 +7,17 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_open_internet.*
+import android.widget.Button
+import android.widget.EditText
 import java.util.*
 
 class OpenInternet : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_open_internet)
+
+        val address_edit_text = findViewById<EditText>(R.id.address_edit_text)
+        val open = findViewById<Button>(R.id.open)
 
         open.setOnClickListener {
             var address = address_edit_text.text.toString()

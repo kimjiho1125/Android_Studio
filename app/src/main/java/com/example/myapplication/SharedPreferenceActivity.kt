@@ -5,12 +5,18 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_shared_preference.*
+import android.widget.Button
+
 
 class SharedPreferenceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shared_preference)
+
+        val save_btn = findViewById<Button>(R.id.save_btn)
+        val load_button = findViewById<Button>(R.id.load_button)
+        val delete_button = findViewById<Button>(R.id.delete_button)
+        val delete_all_button = findViewById<Button>(R.id.delete_all_button)
 
         // SharedPreference에 저장하는 방법
         // Mode

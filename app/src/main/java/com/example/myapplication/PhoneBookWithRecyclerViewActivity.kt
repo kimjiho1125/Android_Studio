@@ -12,12 +12,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatViewInflater
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_phone_book_with_recycler_view.*
 
 class PhoneBookWithRecyclerViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone_book_with_recycler_view)
+
+        val phonebook_recycler_view = findViewById<androidx.recyclerview.widget.RecyclerView>(R.id.phonebook_recycler_view)
 
         val phoneBook = createFakePhoneBook(fakeNumber = 30)
         val phoneBookRecyclerAdapter = PhoneBookRecyclerAdapter(phoneBookList = phoneBook, inflater = LayoutInflater.from(this@PhoneBookWithRecyclerViewActivity),activity = this)

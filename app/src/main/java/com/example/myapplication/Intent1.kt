@@ -5,13 +5,14 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_intent.*
-import kotlinx.android.synthetic.main.activity_intent2.*
+import android.widget.Button
 
 class Intent1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intent)
+
+        val change_activity = findViewById<Button>(R.id.change_activity)
 
         change_activity.setOnClickListener {
 
