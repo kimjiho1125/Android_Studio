@@ -1,19 +1,41 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import org.w3c.dom.Text
 import java.lang.Exception
 
 class AsyncActivity : AppCompatActivity() {
+    var task : BackgroundAsyncTask? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_async)
 
+        val start = findViewById<Button>(R.id.start)
+        val stop = findViewById<Button>(R.id.stop)
+        val progressbar = findViewById<ProgressBar>(R.id.progressbar)
+        val ment = findViewById<TextView>(R.id.ment)
 
+        start.setOnClickListener {
+            task = BackgroundAsyncTask(progressbar, ment)
+            task?.execute()
+        }
+        stop.setOnClickListener {
+            //task?.cancel(true)
+            startActivity(Intent(this, Intent2::class.java))
+        }
+    }
+
+    override fun onPause() {
+        task?.cancel(true)
+        super.onPause()
     }
 }
 
@@ -35,6 +57,7 @@ class BackgroundAsyncTask(
     override fun doInBackground(vararg params: Int?): Int {
         while(isCancelled() == false) {
             percent++
+            Log.d("async", "percent : " + percent)
             if(percent > 100){
                 break
             } else {
@@ -63,4 +86,5 @@ class BackgroundAsyncTask(
         progressbar.setProgress(0)
         progressText.setText("작업이 취소되었습니다.")
     }
+
 }
