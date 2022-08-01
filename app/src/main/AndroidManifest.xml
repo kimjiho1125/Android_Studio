@@ -12,17 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".SharedPreferenceActivity">
+            android:name=".RealmActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TabPagerActivity">
+        <activity android:name=".SharedPreferenceActivity">
 
         </activity>
-        <activity android:name=".PhoneBookWithRecyclerViewActivity"></activity>
+        <activity android:name=".TabPagerActivity"></activity>
+        <activity android:name=".PhoneBookWithRecyclerViewActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ListViewActivity" />
         <activity
