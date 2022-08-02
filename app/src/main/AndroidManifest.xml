@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".AsyncActivity"
+            android:name=".NetworkActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +21,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RealmActivity">
+            android:name=".AsyncActivity">
         </activity>
-        <activity android:name=".SharedPreferenceActivity"></activity>
+        <activity android:name=".RealmActivity"></activity>
+        <activity android:name=".SharedPreferenceActivity" />
         <activity android:name=".TabPagerActivity" />
         <activity android:name=".PhoneBookWithRecyclerViewActivity" />
         <activity android:name=".RecyclerViewActivity" />
