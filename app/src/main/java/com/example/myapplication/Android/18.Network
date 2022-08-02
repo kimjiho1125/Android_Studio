@@ -17,11 +17,24 @@ Local DataBase의 한계
 - JSON 형식을 사용해서 데이터를 보낸다
     - JavaScript Object Notation -> JavaScript에서 객체를 만들 때 사용하는 표현식이다
 
-JSWON 형식
+JSON 형식
 - [] -> List
 - {} -> Object
     -> "" -> 문자열
     -> ""없으면 -> 숫자
+
+JSON Parsing
+- JSON을 코틀린이나 자바가 이해할 수 있게 변형하는 과정
+
+Serializable (직렬화)
+-> 자바 시스템 내부에서 사용되는 object를 외부에서 사용할 수 있도록 byte형태로
+   데이터를 바꾸는 것
+class Person(
+    var id : Int? = null
+    var name : String? = null
+    var age : Int? = null
+    var intro : String? = null
+)
 
 
 
