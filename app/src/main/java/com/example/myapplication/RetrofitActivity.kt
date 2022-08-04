@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,7 @@ class RetrofitActivity : AppCompatActivity() {
 
         val service = retrofit.create(RetrofitService::class.java)
 
+        //GET 요청
         service.getStudentsList().enqueue(object : Callback<ArrayList<PersonFromServer>>{
 
             override fun onFailure(call: Call<ArrayList<PersonFromServer>>, t: Throwable) {
@@ -45,5 +47,44 @@ class RetrofitActivity : AppCompatActivity() {
                 }
             }
         })
+        // POST 요청(1)
+//        val params = HashMap<String, Any>()
+//        params.put("name","김갸똥")
+//        params.put("age", 20)
+//        params.put("intro", "안냐세요")
+//        service.createStudent(params).enqueue(object  : Callback<PersonFromServer>{
+//            override fun onResponse(
+//                call: Call<PersonFromServer>,
+//                response: Response<PersonFromServer>
+//            ) {
+//                if (response.isSuccessful) {
+//                    val person = response.body()
+//                    Log.d("retrofitt", "name : " + person?.name)
+//                }
+//            }
+//
+//            override fun onFailure(call: Call<PersonFromServer>, t: Throwable) {
+//
+//            }
+//        })
+        // POST 요청(2)
+        val person = PersonFromServer(name = "김찰스", age=12, intro = "안녕하세요 찰스입니다")
+        service.createStudentEasy(person).enqueue(object : Callback<PersonFromServer>{
+            override fun onResponse(
+                call: Call<PersonFromServer>,
+                response: Response<PersonFromServer>
+            ) {
+                if (response.isSuccessful) {
+                    val person = response.body()
+                    Log.d("retrofitt", "name : " + person?.name)
+                }
+            }
+
+            override fun onFailure(call: Call<PersonFromServer>, t: Throwable) {
+
+            }
+        })
+
+
     }
 }
