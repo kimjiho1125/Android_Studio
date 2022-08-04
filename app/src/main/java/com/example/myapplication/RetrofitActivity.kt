@@ -40,7 +40,6 @@ class RetrofitActivity : AppCompatActivity() {
                     val code = response.code()
                     Log.d("retrofitt", "code : " + code)
 
-                    val error = response.errorBody()
                     val header = response.headers()
                     Log.d("retrofitt", "header : " + header)
                 }
