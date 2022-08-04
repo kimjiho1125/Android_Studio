@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface RetrofitService
 {
-    @GET("josn/students/")
+    @GET("json/students/")
     fun getStudentsList(): Call<ArrayList<PersonFromServer>>
 }
