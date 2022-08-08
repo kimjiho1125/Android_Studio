@@ -19,4 +19,9 @@ interface RetrofitService
     fun createStudentEasy(
         @Body person : PersonFromServer
     ): Call<PersonFromServer>
+
+    @POST("user/signup/")
+    fun register(
+        @Body register: Register
+    ): Call<User>
 }
