@@ -41,8 +41,10 @@
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_library.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_listener.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_network.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_open_internet.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_out_stagram_post_list.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_permission.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_phone_book_detail.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_phone_book_with_recycler_view.xml" value="0.1" />
@@ -52,6 +54,7 @@
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_retrofit_library.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_shared_preference.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/activity_thread.xml" value="0.1" />
+        <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/outstargram_item_view.xml" value="0.1" />
         <entry key="..\:/Users/JIHO/Desktop/study/Android_Studio/app/src/main/res/layout/person_list_item.xml" value="0.1" />
       </map>
     </option>
