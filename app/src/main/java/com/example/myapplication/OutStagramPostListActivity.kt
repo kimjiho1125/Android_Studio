@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Layout
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
+import org.w3c.dom.Text
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -49,7 +51,27 @@ class OutStagramPostListActivity : AppCompatActivity() {
 
                 }
             }
-        )}
+        )
+        val user_info = findViewById<TextView>(R.id.user_info)
+        val all_list = findViewById<TextView>(R.id.all_list)
+        val my_list = findViewById<TextView>(R.id.my_list)
+        val upload = findViewById<TextView>(R.id.upload)
+        user_info.setOnClickListener {
+            startActivity(Intent(this@OutStagramPostListActivity, OutStagramUserInfo::class.java))
+        }
+        all_list.setOnClickListener {
+            startActivity(Intent(this@OutStagramPostListActivity, OutStagramPostListActivity::class.java))
+        }
+        my_list.setOnClickListener {
+            startActivity(Intent(this@OutStagramPostListActivity, OutstagramMyPostListActivity::class.java))
+        }
+        upload.setOnClickListener {
+            startActivity(Intent(this@OutStagramPostListActivity, OutStagramUploadActivity::class.java))
+        }
+    }
+
+
+
 
     class PostAdapter(
         var postList : ArrayList<Post>,

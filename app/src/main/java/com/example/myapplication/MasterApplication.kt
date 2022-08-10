@@ -65,4 +65,5 @@ class MasterApplication : Application() {
         if (token == "null") return null
         else return token
     }
+
 }

@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".OutStagramUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutstagramMyPostListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutStagramUserInfo"
+            android:exported="false" />
+        <activity
             android:name=".OutStagramPostListActivity"
             android:exported="false" />
         <activity
